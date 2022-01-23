@@ -147,7 +147,6 @@ html{
 
 /* selection */
 .select-input{
-    z-index: 1;
     position: relative;
     height: 36px;
     padding: 0 12px;
@@ -172,6 +171,7 @@ html{
 
 .select-input__list{
     position: absolute;
+    z-index: 1;
     left: 0;
     right: 0;
     top: 27px;
